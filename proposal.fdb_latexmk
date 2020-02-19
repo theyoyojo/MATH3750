@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1582142184 "proposal.tex" "proposal.pdf" "proposal" 1582142184
+["pdflatex"] 1582143987 "proposal.tex" "proposal.pdf" "proposal" 1582143987
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -135,8 +135,8 @@
   "/usr/share/texlive/texmf-var/web2c/pdftex/pdflatex.fmt" 1561138264 713803 ae8fb38d902b0aa76af66920e2cd016b ""
   "/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map" 1364784046 1004768 3c7280659d29de6237e604b212b473f2 ""
   "/usr/share/texlive/texmf/web2c/texmf.cnf" 1561139064 31290 a1360b1ab62474aa929bb8ffa028ce85 ""
-  "proposal.aux" 1582142184 265 77da53412121060ea31b8f9299ed2b6a ""
-  "proposal.tex" 1582142184 1836 6933007bb2d5027ffeaff5d435e574a3 ""
+  "proposal.aux" 1582143987 265 77da53412121060ea31b8f9299ed2b6a ""
+  "proposal.tex" 1582143985 3184 12f5cf913bc6e08013fdb89e17836cfb ""
   (generated)
   "proposal.snm"
   "proposal.out"

@@ -17,13 +17,33 @@ Senior Seminar I}
 
 From summer 2019 through the present, a group of computer science students and I have worked on a project in collaboration with Red Hat --- the software company --- to improve the usability of Fedora Linux on the Raspberry Pi hardware platform in particular and the 64-bit arm architecture in general.
 
-Our aim is to enable Jeff Brown and Professor Bill Moloney to use Fedora Linux as a basis for the curriculum of their popular IoT class that runs each spring.
+Our aim is to enable Jeff Brown and Professor Bill Moloney to use Fedora Linux as a basis for the curriculum of their popular IoT class that runs each spring as well as to contribute to open source software in general.
 We began by identifying existing usability flaws, such as missing or misconfigured features, improperly integrated hardware, and performance bottlenecks. Once we had established this baseline of knowledge, we chose a few individual projects to test the waters over the Fall 2019 semester. Temporarily shelving more rigorous performance analysis, we worked on a GPIO syntax compatibility library, a usable set of starting software for students, and operating system images that could be readily copied to microSD cards for student use.
 
+The most commonly used GPIO library on the Raspberry Pi is a python package called RPi.GPIO. Most tutorials, guides, and existing code is designed to interact with the hardware using the syntax of this package. Unfortunately, this package is incompatible with Fedora Linux for reasons beyond the scope of this proposal. We built a python library that translates code written for RPi.GPIO into an alternative form that uses a more standard backend called libgpiod. In doing so, we contributed minor improvements to upstream libgpiod. We currently support almost all normal RPi.GPIO syntax and aim to add support for pulse-width modulation devices such as motors. At this point, our library could theoretically replace RPi.GPIO entirely. We also plan to submit our package to the upstream Fedora repositiories so it will be generally availabe to all users of Fedora Linux.
+
+Along the way, we have made various usability and configuration improvements, such as enabling audio, chosing a relatively performant window manager, 
+
+OUTLINE:
+
+-- currently building images
+
+-- working on senseHAT and hardware
+
+-- mention northeastern collaboration potential
+
+-- -- bluetooth maybe?
+
+-- add math component:
+
+-- -- sage math perhaps
+
+-- -- detailed performance analysis and comparisson with Raspbian
 
 
-\pagebreak
+
 \noindent\begin{tabular}{ll}
+	\\[8ex]
 	\makebox[4in]{\hrulefill} & \makebox[1.5in]{\hrulefill} \\
 	Joel Savitz, Student & Date \\[8ex]
 	\makebox[4in]{\hrulefill} & \makebox[1.5in]{\hrulefill} \\

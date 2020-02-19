@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2019.6.21)  19 FEB 2020 14:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2019.6.21)  19 FEB 2020 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -436,11 +436,8 @@ Package grfext Info: Graphics extension search list:
 (grfext)             \AppendGraphicsExtensions on input line 452.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1{/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (57.48502pt too wide) in paragraph at lines 26--34
+)) [1{/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (57.48502pt too wide) in paragraph at lines 45--54
 [] 
  []
 
@@ -448,13 +445,13 @@ Overfull \hbox (57.48502pt too wide) in paragraph at lines 26--34
 Here is how much of TeX's memory you used:
  12039 strings out of 495063
  217870 string characters out of 3182201
- 260872 words of memory out of 3000000
+ 261872 words of memory out of 3000000
  14800 multiletter control sequences out of 15000+200000
  12519 words of font info for 50 fonts, out of 3000000 for 9000
  175 hyphenation exceptions out of 8191
- 56i,7n,55p,549b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,7n,55p,885b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on proposal.pdf (2 pages, 78864 bytes).
+Output written on proposal.pdf (2 pages, 80956 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
