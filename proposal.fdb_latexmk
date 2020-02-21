@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1582243420 "proposal.tex" "proposal.pdf" "proposal" 1582243420
+["pdflatex"] 1582243774 "proposal.tex" "proposal.pdf" "proposal" 1582243774
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -21,7 +21,6 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/wasy/wasy10.tfm" 1136768653 948 25a8e5c0a8de07799edc6b664a2a3602 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/wasy/wasy5.tfm" 1136768653 952 e78c0994a0bf7d37266949ff6152702b ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/wasy/wasy6.tfm" 1136768653 956 31c76689d2a13c063565d08fce41c4f2 ""
@@ -32,7 +31,6 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1248133631 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1335995445 7612 c47308d923ec19888707b0f1792b326a ""
   "/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty" 1303254447 7324 11d14f318d865f420e692d4e6c9c18c3 ""
@@ -135,13 +133,13 @@
   "/usr/share/texlive/texmf-var/web2c/pdftex/pdflatex.fmt" 1561138264 713803 ae8fb38d902b0aa76af66920e2cd016b ""
   "/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map" 1364784046 1004768 3c7280659d29de6237e604b212b473f2 ""
   "/usr/share/texlive/texmf/web2c/texmf.cnf" 1561139064 31290 a1360b1ab62474aa929bb8ffa028ce85 ""
-  "proposal.aux" 1582243420 265 77da53412121060ea31b8f9299ed2b6a ""
-  "proposal.tex" 1582243418 4502 b213755a470951d0ade8009d3553a8b5 ""
+  "proposal.aux" 1582243774 265 77da53412121060ea31b8f9299ed2b6a ""
+  "proposal.tex" 1582243774 4479 dddcfdf6a50a2b54ea49271ae2efb821 ""
   (generated)
   "proposal.snm"
   "proposal.out"
   "proposal.nav"
   "proposal.pdf"
   "proposal.log"
-  "proposal.aux"
   "proposal.toc"
+  "proposal.aux"
