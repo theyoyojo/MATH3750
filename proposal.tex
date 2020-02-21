@@ -22,34 +22,20 @@ We began by identifying existing usability flaws, such as missing or misconfigur
 
 The most commonly used GPIO library on the Raspberry Pi is a python package called RPi.GPIO. Most tutorials, guides, and existing code is designed to interact with the hardware using the syntax of this package. Unfortunately, this package is incompatible with Fedora Linux for reasons beyond the scope of this proposal. We built a python library that translates code written for RPi.GPIO into an alternative form that uses a more standard backend called libgpiod. In doing so, we contributed minor improvements to upstream libgpiod. We currently support almost all normal RPi.GPIO syntax and aim to add support for pulse-width modulation devices such as motors. At this point, our library could theoretically replace RPi.GPIO entirely. We also plan to submit our package to the upstream Fedora repositiories so it will be generally availabe to all users of Fedora Linux.
 
-Along the way, we have made various usability and configuration improvements, such as enabling audio, chosing a relatively performant window manager, 
+Along the way, we have made various usability and configuration improvements, such as enabling audio, chosing a relatively performant window manager, and fixing an inconsistent copy-and-paste mechanism. A few of us spent some time looking into attachable hardware devices like the senseHAT, a small board with and LED display, joystick, and various enviornmental sensors. We made some progress in the area of enabling the Raspberry Pi and the senseHAT to talk to each other at a basic level, however we continue to pursue complete functionality of the device as an ongoing goal.
 
-OUTLINE:
+Another significant area of work to be done is the enablement of Bluetooth. Until recently, we had only done preliminary investigation in this area, however we are now in contact with a group of students at Northeastern University who are interested in joining our efforts on this project. They are working on a research proposal and looking for a faculty mentor to guide them in the enablement and testing of Bluetooth functionality on the Raspberry Pi devices. Raspbian, another popular Raspberry Pi operating system, also has issues with Bluetooth and so that group has the potential to improve usability for a diverse range of users.
 
--- currently building images
-
--- working on senseHAT and hardware
-
--- mention northeastern collaboration potential
-
--- -- bluetooth maybe?
-
--- add math component:
-
--- -- sage math perhaps
-
--- -- detailed performance analysis and comparisson with Raspbian
-
-
+As a Mathematical Sciences major, I propose to extend our existing work in a more mathematical direction. One possible direction, as suggested to me by Dr. Levasseur, would be to port the Sage Math library to Fedora. Further triage is needed to determine whether this will provide sufficient scope for this project. Another possible direction is to do more detailed and rigorous performance analysis of the hardware and software, both within Fedora Linux and between other availabe operating systems such as Raspbian.
 
 \noindent\begin{tabular}{ll}
-	\\[8ex]
+	\\[4ex]
 	\makebox[4in]{\hrulefill} & \makebox[1.5in]{\hrulefill} \\
-	Joel Savitz, Student & Date \\[8ex]
+	Joel Savitz, Student & Date \\[4ex]
 	\makebox[4in]{\hrulefill} & \makebox[1.5in]{\hrulefill} \\
-	Dr. Kenneth Levasseur, Advisor & Date \\[8ex]
+	Dr. Kenneth Levasseur, Advisor & Date \\[4ex]
 	\makebox[4in]{\hrulefill} & \makebox[1.5in]{\hrulefill} \\
-	Dr. Aida Kadic-Galeb, Coordinator & Date \\[8ex]
+	Dr. Aida Kadic-Galeb, Coordinator & Date \\[4ex]
 \end{tabular}
 
 
